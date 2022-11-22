@@ -13,7 +13,7 @@ Weather dashboard displays current weather based on a city search providing a fi
 
 To install the run the site locally, initialize with npm install for npm i. In the root directory run npm start. Search for a city to retrieve weather information.
 
-Live link [HERE](https://mychaelc.github.io/weather-dashboard/)
+Live link [HERE](https://mychaelc.github.io/weather-dash/)
 
 # App Image
 ![screenshot](./assets/images/Screen%20Shot%202022-10-13%20at%203.45.35%20PM.png)
