@@ -1,0 +1,61 @@
+*{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    color: lightslategray;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+}
+
+li {
+    border-style: 1px solid;
+    border-color: lightslategray;
+    height: 25px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 5px;
+    background-color: lightblue;
+    color: lightslategray;
+    line-height: 1.5;
+}
+
+li:hover {
+    background-color: lightskyblue;
+}
+
+.button.is-info {
+    background-color: lightskyblue;
+    color: lightslategray;
+}
+.container {   
+    padding: 10px;
+}
+
+.forecast {
+    background-color: lightskyblue;
+    margin: 6px;
+    border-radius: 6px;
+}
+
+#daily-weather {
+    border-bottom: 1px solid lightskyblue;
+    display: block;
+    padding: 10px;
+}
+
+.favorable {
+    background-color: lightgreen;
+}
+
+.moderate {
+    background-color: yellow;
+}
+
+.severe {
+    background-color:red;
+    color: white;
+}

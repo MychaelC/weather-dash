@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="title is-1 has-text-center">Weather Dashboard</h1>
+  </header>
+  <div class="container">
+    <div class="columns is-mobile">
+      <div class="column is-one-third" id="search">
+        <div class="level" id="search-box">
+          <div id="btn-container" class="field">
+
+            <label class="label"> City Search:</label>
+            <div class="field-body has-addons">
+              <div class="control">
+                <input class="input" type="text" id="search-value">
+              </div>
+              <div class="control">
+                <button class="button is-info" id="search-btn"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="level">
+          <ul id="search-history"></ul>
+        </div>
+      </div>
+      <div class="column" id="dashboard">
+        <div class="level" id="daily-weather">
+        </div>
+
+        <div class="level" id="forecast">
+          <h3 id="forecast-header"></h3>
+          <div class="columns is-mobile is-3"></div>
+          <div class="column forecast" id="day-0-forecast"></div>
+          <div class="column forecast" id="day-1-forecast"></div>
+          <div class="column forecast" id="day-2-forecast"></div>
+          <div class="column forecast" id="day-3-forecast"></div>
+          <div class="column forecast" id="day-4-forecast"></div>
+        </div>
+
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <script src="./assets/script.js"></script>
+      <!-- <script type="text/javascript" src="script.js"></script> -->
+      <!-- <script src="./assets/script.js"></script> -->
+</body>
+
+</html>
